@@ -1,32 +1,41 @@
-#  NBA Schedule Difficulty Analysis
+NBA Schedule Difficulty Analysis
 
-This project explores **NBA schedule difficulty** using team- and league-level data. The analysis covers **schedule density, travel stretches, back-to-backs, and the impact on team performance** from 2014–2024. It’s designed as a real-world style analytics project — similar to what an NBA front office data team might work on.  
+This project examines NBA schedule difficulty through a data-driven approach using historical scheduling and team performance data. The analysis evaluates schedule density, travel demands, back-to-back games, and their impact on team outcomes between 2014 and 2024. The study is structured to reflect the type of analytics work performed in a professional sports front office.
 
----
+Purpose
 
-##  Project Objectives
-- Identify **4-in-6 stretches** (4 games in 6 nights) across seasons and teams.  
-- Compare **schedule density trends** over the last decade.  
-- Measure the effect of **back-to-backs (B2B)** on team defensive efficiency.  
-- Build **visual tools** to highlight travel demands and congested stretches.  
-- Model the impact of scheduling on **wins gained/lost** (2019–2024).  
+The structure of the NBA schedule plays a measurable role in player fatigue, competitive balance, and team performance. By quantifying schedule intensity and modeling its effects on outcomes, this project demonstrates how analytics can be applied to evaluate fairness, uncover structural trends, and inform strategic decision-making.
 
----
 
-## ⚙ Tools & Technologies
-- **Python** (Pandas, NumPy, Matplotlib, Seaborn, Plotly)  
-- Jupyter Notebook  
-- NBA schedule & game data (provided CSV files)  
+Objectives
 
----
+Identify and measure 4-in-6 stretches (four games in six nights) for each team and season
 
-##  Key Features
-- **Schedule density analysis**: Count and compare 4-in-6 stretches, adjusted to 82 games.  
-- **League-wide comparisons**: Which teams face the toughest or easiest scheduling?  
-- **Trend analysis**: How NBA scheduling has changed over the last 10 years.  
-- **Interactive schedule plots**: Visualize OKC & DEN’s 2024–25 season.  
-- **Modeling**: Estimate wins added/lost due to scheduling factors.  
+Evaluate schedule density trends across the past decade
 
----
+Assess the effect of back-to-backs on defensive performance metrics
 
-## 📁 Repository Structure
+Develop visual tools to highlight schedule anomalies and travel demands
+
+Model the estimated impact of scheduling on team win totals (2019–2024)
+
+
+Tools and Technologies
+
+Python: Pandas, NumPy, Matplotlib, Seaborn, Plotly
+
+Jupyter Notebook for analysis and reporting
+
+Provided NBA datasets (schedule, locations, game performance)
+
+
+Key Analyses
+
+Schedule Density: Identification of 4-in-6 stretches normalized to an 82-game schedule
+
+Team Comparisons: Determination of teams most and least impacted by congested schedules
+
+Trend Analysis: Examination of how league scheduling practices have evolved over ten years
+
+Custom Visualizations: Season-level plots highlighting high-density stretches and travel burdens
+
