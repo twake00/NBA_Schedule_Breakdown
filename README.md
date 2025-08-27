@@ -7,6 +7,7 @@ Purpose
 The structure of the NBA schedule plays a measurable role in player fatigue, competitive balance, and team performance. By quantifying schedule intensity and modeling its effects on outcomes, this project demonstrates how analytics can be applied to evaluate fairness, uncover structural trends, and inform strategic decision-making.
 
 
+
 Objectives
 
 Identify and measure 4-in-6 stretches (four games in six nights) for each team and season
@@ -20,6 +21,7 @@ Develop visual tools to highlight schedule anomalies and travel demands
 Model the estimated impact of scheduling on team win totals (2019–2024)
 
 
+
 Tools and Technologies
 
 Python: Pandas, NumPy, Matplotlib, Seaborn, Plotly
@@ -27,6 +29,7 @@ Python: Pandas, NumPy, Matplotlib, Seaborn, Plotly
 Jupyter Notebook for analysis and reporting
 
 Provided NBA datasets (schedule, locations, game performance)
+
 
 
 Key Analyses
